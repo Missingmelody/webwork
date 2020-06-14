@@ -1,0 +1,275 @@
+<DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>CiliCili</title>
+	<style>
+		* {
+	    padding: 0;
+	    margin: 0;
+		}
+		body{
+			font-family: "microsoft yahei";
+		}
+		.top{
+			width: 1200px;	
+			margin: 20px auto;
+		}
+		.logo{
+			float: left;
+		}
+		.logo img{
+			width: 140px;	
+		}
+		.name{
+			font-weight: 20px;
+			font-size: 50px;
+			color: gray;	
+		}
+		.name input{
+			margin-left: 5px;
+			height: 37px;
+			width: 243px;
+			position: relative;
+			top: -13.5px;
+			right: -3px;
+		}	
+		.name img{
+			padding: 10px 10px;
+			background-color: #00A3FF;
+		}
+		.signin{
+			width: 1200px;
+		}
+		.signin ul li{
+			list-style: none;
+			float: left;
+			width: 40px;
+			height: 30px;
+			line-height: 30px;
+			text-align: center;
+		}
+		.nav{
+			float: right;
+		}
+		.nav ul li ul li{
+   			display: none;
+   			width: 120px;
+   			height:0px;
+   			float: initial;
+   			background: rgb(1, 163,164);
+   			font-size: 10px;
+   			transition: 0.3s;
+   		}
+		.nav ul li:hover ul li{
+   			display: block;   
+   			height: 120px;
+   			border-top: 1px solid rgb(72, 219, 251);
+   			position: relative;
+   			opacity: 0.8;
+   		}
+		.nav ul li{
+			list-style: none;
+			float: left;
+			width: 120px;
+			height: 136px;
+			line-height: 136px;
+			text-align: center;
+		}
+		.nav ul li a{
+			text-decoration: none;
+			color:#333333; 
+			font-weight: 500px;
+		}
+		.nav ul li a:hover{
+			color: red;
+		}
+		.box{
+			width: 1200px;
+			height: 980px;
+			margin: auto;
+		}
+		.banner{
+			width: 100%;
+		}
+		.banner img{
+			width: 100%;
+		}	
+		.neirong-title{
+			height: 40px;
+			line-height: 40px;
+		}
+		.neirong-title p{
+			font-size: 20px;
+			border-bottom: 3px solid #ccc;
+		}
+		.neirong-list{
+			width: 100%;
+			height: 680px;
+			margin-top: 10px;
+		}
+		.neirong-list ul li{
+			float: left;
+			width: 280px;
+			margin-right: 20px;
+			list-style: none;
+		}
+		.neirong-list ul li a{
+			display: block;
+			width: 100%;
+			text-decoration: none;
+			color: #333333
+		}
+		.neirong-list ul li a img{
+			width: 100%;
+		}
+		.neirong-list ul li a span{
+			display: block;
+			width: 100%;
+			text-align: center;
+			height: 30px;
+			line-height: 30px;
+			margin-bottom: 10px;
+		}
+		.bottom{
+			width: 1200px;
+			margin: 0 auto;
+			text-align: center;
+			background: #333333;
+		}
+		.bottom p{
+			color: #fff;
+		}
+	</style>
+</head>
+<body>
+	<div class="top">
+		<div class="logo">
+			<img src="img/logo.png" alt="logo"></img>	
+		</div>
+		<div class="name">
+			<p>CiliCili</p>
+			<input type="text" name="search">
+			<a href="#"><img src="img/search.png"></a>
+		</div>
+		<div class="signin">	
+			<ul>
+				<li>
+					<a href="#"><img src="img/QQ.png"></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/wechat.png"></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/weibo.png"></a>
+				</li>
+			</ul>
+		</div>
+		<div class="nav">
+			<ul>
+				<li><a href="#">首页 |</a>
+				</li>
+				<li><a href="#">漫画专区 |</a>
+					<ul>
+						<li><a href="#">日更</a>
+						<li><a href="#">周更</a>
+						<li><a href="#">月更</a>
+					</ul>
+				</li>
+				<li><a href="#">动漫专区 |</a>
+					<ul>
+						<li><a href="#">最新</a>
+						<li><a href="#">热门</a>
+						<li><a href="#">经典</a>
+					</ul>
+				</li>
+				<li><a href="#">音乐专区 |</a>
+					<ul>
+						<li><a href="#">轻音乐</a>
+						<li><a href="#">电音</a>
+						<li><a href="#">古风</a>
+					</ul>
+				</li>
+				<li><a href="#">插图专区 |</a>
+					<ul>
+						<li><a href="#">水墨</a>
+						<li><a href="#">清新</a>
+						<li><a href="#">4K</a>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="box">
+		<div class="banner">
+			<img src="img/banner.png" alt="banner">
+		</div>
+		<div class="neirong">
+			<div class="neirong-title">
+				<p>内容</p>
+			</div>
+			<div class="neirong-list">
+				<ul>
+					<li>
+						<a href="#">
+							<img src="img/1.png" alt="">
+							<span>阴阳师1</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/2.png" alt="">
+							<span>阴阳师2</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/3.png" alt="">
+							<span>阴阳师3</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/4.png" alt="">
+							<span>阴阳师4</span>
+						</a>
+					</li>
+				</ul>
+				<ul>	
+					<li>
+						<a href="#">
+							<img src="img/5.png" alt="">
+							<span>阴阳师5</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/6.png" alt="">
+							<span>阴阳师6</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/7.png" alt="">
+							<span>阴阳师7</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/8.png" alt="">
+							<span>阴阳师8</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="bottom">
+		<p>&nbsp</p>
+		<p>版权所有：CiliCili文化传媒公司</p>
+		<p>侵权必究</p>
+		<p>X公网安备4676431687979号</p>
+		<p>&nbsp</p>
+	</div>	
+</body>
+</html>
